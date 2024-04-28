@@ -1,0 +1,22 @@
+<!-- question.component.html -->
+
+<div class="question-container">
+    <p>{{ questionText }}</p>
+    <label>
+      <input type="checkbox" (change)="selectOption(options[0])">
+      {{ options[0] }}
+    </label>
+    <label>
+      <input type="checkbox" (change)="selectOption(options[1])">
+      {{ options[1] }}
+    </label>
+    <label>
+      <input type="checkbox" (change)="selectOption(options[2])">
+      {{ options[2] }}
+    </label>
+    <label>
+      <input type="checkbox" (change)="selectOption(options[3])">
+      {{ options[3] }}
+    </label>
+  </div>
+  

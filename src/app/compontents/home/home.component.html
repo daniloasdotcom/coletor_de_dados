@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="container">
+    <div class="main-section">
+        <div>
+            <h2>Título</h2>
+            <p>Conteúdo alinhado à esquerda</p>
+        </div>
+        <app-nome></app-nome>
+        <app-pergunta [questionText]="question" [options]="options"
+            (optionSelected)="handleOptionSelected($event)"></app-pergunta>
+        <p>Opção selecionada: {{ selectedOption }}</p>
+    </div>
+</div>

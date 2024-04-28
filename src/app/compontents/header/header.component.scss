@@ -1,0 +1,19 @@
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Opcional: para centralizar verticalmente */
+    margin: 0; /* Remove a margem padrão do h1 */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
