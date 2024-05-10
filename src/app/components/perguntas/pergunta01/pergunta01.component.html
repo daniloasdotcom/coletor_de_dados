@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="main-section">
+        <div>
+            <h2>Quadro 01</h2>
+            <p>Conteúdo alinhado à esquerda</p>
+        </div>
+        <app-pergunta [questionText]="question" [options]="options"
+            (optionSelected)="handleOptionSelected($event)"></app-pergunta>
+        <p>Opção selecionada: {{ selectedOption }}</p>
+    </div>
+</div>

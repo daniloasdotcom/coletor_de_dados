@@ -1,0 +1,14 @@
+.container {
+    display: flex; /* Ative o layout flexível */
+    justify-content: center; /* Centralize horizontalmente */
+    align-items: center; /* Centralize verticalmente */
+    height: 100vh; /* Defina a altura da seção principal para ocupar toda a altura da tela */
+}
+
+.main-section {
+    background-color: #f2f2f2; /* Uma cor cinza claro como exemplo */
+    padding: 20px; /* Adiciona algum espaço interno para o conteúdo */
+    border-radius: 10px; /* Arredonda as bordas para dar uma aparência mais suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    width: 500px;
+}
